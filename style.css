@@ -1,0 +1,38 @@
+.ma-cal{
+	text-align: center;
+}
+.ma-cal table tr:nth-child(odd){
+	background: rgba(0,0,0,.1); /* This is transparent Black so it can be fit with any theme and color */
+}
+.ma-cal table tr td{
+	text-align: center;
+}
+
+.ma-cal a.cal{
+	display: block;
+}
+.ma-cal a.cal:hover{
+	text-decoration: none; /* For avoid other distraction */
+}
+.ma-cal .cal-cont{
+	background: rgba(0,0,0,.2); /* This is transparent Black so it can be fit with any theme and color */
+	display:block;
+	padding:5px;
+}
+.cal-cont p{
+	margin:0px;
+	font-weight:bold;
+}
+.ma-cal a.cal p{
+	margin: 0px;
+	font-weight:normal;
+}
+
+.ma-cal h4,.ma-cal h5{
+	margin: 0px;
+}
+
+.ma-cal a.cal p span{
+	font-weight: bold;
+}
+
